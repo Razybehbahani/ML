@@ -1,0 +1,50 @@
+git init  	 // initialize local git repository (hidden file)
+git add <file>   // add files to index, you can add many times before commiting 
+git status       // check status of working tree
+git commit	 // commit changes in index
+git commit -m 'put your message here'
+git rm --cached <file> 	// to remove a file from index area
+git add . 	// to add every file, same as:
+git add * 
+
+
+### each time that you change a file you need to add it to the index area and then commit it
+
+##### for remote repository
+git push         // push to remote repository
+git pull         // pull the latest changes from the remote repository
+git clone 	 // copy a remote repository into current directory	 
+git merge  <name of the branch to merge to a destination branch>	//while we are in the destination branch	
+git branch	// to see names of the all the branches 
+git branch <name of the branch>
+git checkout  <name of the branch to get in>	// to get out of the current branch and
+						// get in another one   
+git remote 	// lists the address of remote repository linked to our repository
+git remote add origin  <https:...  .git>   
+
+
+
+#### How to install GIT
+
+Linux (Debian):		 $sudo apt-get install git
+Linux (Fedora): 	 $sudo yum install git
+Mac, Windows:		 http://git-scm.com/download/mac  (win)
+(for windows when you install git, choose the last option "Use Git and optional unix tools from the windows cammand prompt"
+for the rest just keep the default, After installing uncheck the view Release Notes and check the Launch Git Bash)
+
+
+git --version	// for getting the version
+
+
+
+#### To add your name and email address to your git
+git config  --global user.name 'Razyeh Behbahani'
+
+git config  --global user.email 'Behbahani.razy@gmail.com'
+
+
+######### To make an ignore file, not to commit or record their changes in your gir repository
+touch .gitignore	// make a hidden file, you can use vi or nano 
+#### we need to add the name of the file or /folder that we want to be ignored to .gitignore file
+#### If we want to exclude all *.mif files we can just add *.mif to the .gitignore file  
+ 
