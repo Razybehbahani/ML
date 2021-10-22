@@ -1,6 +1,0 @@
-This is a test for git.
-line 2!
-lets add the thirs line.
-
-New part that modified for temperature.
-
