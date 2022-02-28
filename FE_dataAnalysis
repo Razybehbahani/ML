@@ -1,3 +1,0 @@
-In this project we are working with Finite Element simulation results. 
-Simulation results are saved in nested folders that are named based on their input variables.
-After data cleaning we conduct an explaratory analysis to find the correlation and outlies.
