@@ -1,9 +1,9 @@
-This is a ML project try to understand the laser machining process for engraving channels on ceramic surface. 
+In this ML project we try to understand the laser machining characteristics for engraving channels on ceramic surface. 
 
 We use laser machining experimental data to train a ML model with the goal to 
-find the relevant laser parameters for each target channel engraving.
+find the relevant laser parameters for engraving target channels.
 
-An overview of the project and steps can be found in `Laser_ML_overview.pdf`. The paper reporting the results titled "Machine Learning-Driven Process of Alumina Ceramics Laser Machining" is under review in the journal of Intelligent Manufacturing. 
+An overview of the project and steps can be found in `Laser_ML_overview.pdf`. The paper reporting the results titled "Machine Learning-Driven Process of Alumina Ceramics Laser Machining" is under review in the journal of Intelligent Manufacturing, and its arXiv version can be found here. 
 
 
 Different stages of data analysis in different jupyter notebooks are:
